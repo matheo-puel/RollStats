@@ -3,7 +3,7 @@ import sys
 
 
 
-X = int(input("Nombre de lancé de dé: "))
+X = 150
 liste1 = []
 liste2 = []
 liste3 = []
