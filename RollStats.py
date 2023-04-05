@@ -1,9 +1,8 @@
 import random
 import sys
 
+X = 10000
 
-
-X = 150
 liste1 = []
 liste2 = []
 liste3 = []
