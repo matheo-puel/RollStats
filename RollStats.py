@@ -1,8 +1,6 @@
 import random
 import sys
 
-
-
 X = 100000
 Float = 2
 
