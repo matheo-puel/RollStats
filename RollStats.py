@@ -1,7 +1,10 @@
 import random
 import sys
 
-X = 10000
+
+
+X = 100000
+Float = 2
 
 liste1 = []
 liste2 = []
@@ -41,10 +44,11 @@ p3 = (l3 / X) * 100
 p4 = (l4 / X) * 100
 p5 = (l5 / X) * 100
 p6 = (l6 / X) * 100
-
-print("1: ", round(p1,2), "%")
-print("2: ", round(p2,2), "%")
-print("3: ", round(p3,2), "%")
-print("4: ", round(p4,2), "%")
-print("5: ", round(p5,2), "%")
-print("6: ", round(p6,2), "%")
+total = p1+p2+p3+p4+p5+p6
+print("1: ", round(p1, Float), "%")
+print("2: ", round(p2, Float), "%")
+print("3: ", round(p3, Float), "%")
+print("4: ", round(p4, Float), "%")
+print("5: ", round(p5, Float), "%")
+print("6: ", round(p6, Float), "%")
+print("Total: ", round(total, Float) , "%")
